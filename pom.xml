@@ -4,7 +4,7 @@
     <groupId>me.jackdevey.libraries</groupId>
     <artifactId>codeview</artifactId>
     <version>1.0.0</version>
-    <packaging>aar</packaging>
+    <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>androidx.databinding</groupId>
