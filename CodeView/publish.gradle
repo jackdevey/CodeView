@@ -15,8 +15,8 @@ publishing {
             name = "GithubPackages"
             url = uri("https://maven.pkg.github.com/jackdevey/codeview")
             credentials {
-                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+                username = System.getenv("USERNAME")
+                password = System.getenv("GH_TOKEN")
             }
         }
         maven {
