@@ -10,7 +10,8 @@ import org.bandev.libraries.databinding.LineBinding
 class LineAdapter(
 
     private val lines: MutableList<Line>,
-    private val fontSize: Float
+    private val fontSize: Float,
+    private val numberLines: Boolean
 
 ) : RecyclerView.Adapter<LineAdapter.ViewHolder>() {
 
@@ -28,10 +29,12 @@ class LineAdapter(
             text = currentItem.lineText
             textSize = fontSize
         }
-        with(holder.lineNumber) {
-            text = currentItem.lineNumber.toString().padStart(3, '0')
-            textSize = fontSize
-        }
+        if(numberLines) {
+            with(holder.lineNumber) {
+                text = currentItem.lineNumber.toString().padStart(3, '0')
+                textSize = fontSize
+            }
+        }else holder.lineNumber.visibility = View.INVISIBLE
     }
 
     override fun getItemCount(): Int = lines.size

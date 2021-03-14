@@ -2,6 +2,7 @@ package me.jackdevey.libraries.codeview
 
 import android.content.Context
 import android.graphics.Canvas
+import android.graphics.Color
 import android.util.AttributeSet
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -14,13 +15,14 @@ class CodeView : RecyclerView {
 
     var fontSize: Float = 14f
     var code: String = "No code provided"
+    var numberLines: Boolean = true
 
     fun show() {
         val data : MutableList<Line> = mutableListOf()
         for ((i, line) in code.lines().withIndex()) {
             data.add(Line(i, line))
         }
-        this.adapter = LineAdapter(data, fontSize)
+        this.adapter = LineAdapter(data, fontSize, numberLines)
         this.layoutManager = LinearLayoutManager(context)
     }
 
