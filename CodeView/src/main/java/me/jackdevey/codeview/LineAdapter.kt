@@ -1,4 +1,4 @@
-package me.jackdevey.libraries.codeview
+package me.jackdevey.codeview
 
 import android.view.LayoutInflater
 import android.view.View

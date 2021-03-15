@@ -16,7 +16,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 30
         versionCode 7
-        versionName "1.0.1"
+        versionName "1.0.2"
     }
 
     buildFeatures {

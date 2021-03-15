@@ -1,4 +1,4 @@
-package me.jackdevey.libraries.codeview
+package me.jackdevey.codeview
 
 import android.content.Context
 import android.graphics.Canvas
