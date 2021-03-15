@@ -9,10 +9,11 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="@color/grey"
-        android:gravity="end"
+        android:gravity="start"
         android:padding="5dp"
         android:textColor="?android:attr/textColorPrimary"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:fontFamily="@font/roboto"/>
 
     <TextView
         android:id="@+id/line_text"
