@@ -44,7 +44,7 @@ You can customise the CodeView to make sure that it fits with the theme of your 
 |----------|-----------|-------------|---------|--------|
 | code | String | The code to display on the view | "No code provided" | ✔ |
 | fontSize | Float | The font size of the text | 14f | ✔ |
-| numberLines | Boolean | Number each line | true | ❌ |
+| numberLines | Boolean | Number each line | true | ✔ |
 | backgroundColour | Color | The colour of the background | GREY | ❌ |
 
 
