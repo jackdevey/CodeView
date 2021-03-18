@@ -14,7 +14,7 @@ allprojects {
 **Step 2.** Add the dependency to your app's project gradle file:
 ```groovy
 dependencies {
-    implementation 'me.jackdevey:codeview:1.0.2'
+    implementation 'me.jackdevey:codeview:1.0.3'
 }
 ```
 
