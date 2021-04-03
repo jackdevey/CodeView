@@ -8,7 +8,7 @@
         android:id="@+id/line_number"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="@color/grey"
+        android:background="@color/white"
         android:gravity="start"
         android:padding="5dp"
         android:textColor="?android:attr/textColorPrimary"
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="5dp"
-        android:background="@color/white"
+        android:background="@color/grey"
         android:textColor="?android:attr/textColorPrimary"
         android:textSize="12sp"
         android:fontFamily="@font/roboto"/>
