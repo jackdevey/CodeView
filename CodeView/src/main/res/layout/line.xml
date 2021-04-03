@@ -20,7 +20,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="5dp"
+        android:background="@color/white"
         android:textColor="?android:attr/textColorPrimary"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:fontFamily="@font/roboto"/>
 
 </LinearLayout>
